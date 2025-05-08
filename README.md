@@ -9,6 +9,8 @@
 
 A modern, interactive tarot card reading web application with beautiful animations and mystical design.
 
+[✨ **Live Demo: Mystic Tarot** ✨](https://mystic-tarot-seven.vercel.app/)
+
 <img src="docs/reading.png" alt="Tarot Reading Screenshot" width="600">
 
 </div>
@@ -21,6 +23,31 @@ A modern, interactive tarot card reading web application with beautiful animatio
 - **Beautiful UI**: Mystical, space-themed design with animated background
 - **Card Animations**: Shuffling, selecting, and revealing animations
 - **Landscape Detection**: Warning for optimal orientation on mobile devices
+
+## 📱 App Functionality
+
+### 🃏 Tarot Card Drawing Process
+
+1. **Shuffling**: Begin your reading by shuffling the tarot deck with a beautiful animation
+2. **Selection**: Choose three cards from the fan-spread deck, each representing past, present, and future
+3. **Revelation**: Cards are automatically revealed with detailed interpretations of their meaning
+4. **Interpretation**: Each card provides insights for your past influences, current situation, and potential future outcomes
+
+### 🌟 User Experience Features
+
+- **Animated Backgrounds**: Mystical starry background creates an immersive atmosphere
+- **Responsive Layout**: Adapts seamlessly to any device size or orientation
+- **Intuitive Navigation**: Clear instructions guide users through the reading process
+- **Smooth Transitions**: Elegant animations between each stage of the reading
+- **Card Details**: Each card displays its name, meaning, and time position (past/present/future)
+
+### 🔄 Reading Flow
+
+- Start a new reading with a single click
+- Watch as the deck is shuffled with realistic animations
+- Select cards from the beautifully displayed fan
+- See your selected cards revealed with detailed interpretations
+- Reflect on your reading and start a new one when ready
 
 ## 📱 Screenshots & Demo
 
@@ -57,8 +84,8 @@ A modern, interactive tarot card reading web application with beautiful animatio
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/tarot-reading.git
-cd tarot-reading
+git clone https://github.com/Riddhish1/Mystic-Tarot.git
+cd Mystic-Tarot
 ```
 
 2. Install dependencies
@@ -72,6 +99,19 @@ npm run dev
 ```
 
 4. Open your browser to `http://localhost:5173`
+
+## 🌐 Deployment
+
+The application is deployed and accessible at:  
+[https://mystic-tarot-seven.vercel.app/](https://mystic-tarot-seven.vercel.app/)
+
+### Deployment Details
+
+- **Platform**: Vercel
+- **CI/CD**: Automatic deployments from the GitHub repository
+- **Framework**: Configured for Vite applications
+
+For information on how to deploy your own version, see [VERCEL_DEPLOYMENT.md](VERCEL_DEPLOYMENT.md)
 
 ## 📁 Project Structure
 
